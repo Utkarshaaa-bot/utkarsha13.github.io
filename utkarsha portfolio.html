@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utkarsha Anil Sakore | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #e0e0e0;
+      display: flex;
+    }
+
+    nav {
+      background-color: #1e293b;
+      width: 220px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 2rem;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+
+    nav a {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: 500;
+      margin: 1rem 0;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    .main-content {
+      margin-left: 220px;
+      width: calc(100% - 220px);
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: #1e293b;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      object-fit: fill;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #60a5fa;
+    }
+
+    p.bio {
+      margin-top: 0.5rem;
+      color: #cbd5e1;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    h2 {
+      color: #93c5fd;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 0.5rem;
+    }
+
+    ul.skills {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    ul.skills li {
+      background: #1e40af;
+      padding: 0.5rem 1rem;
+      border-radius: 12px;
+    }
+
+    .project, .achievement, .activity {
+      margin-bottom: 2rem;
+    }
+
+    .achievement-box {
+      background-color: #1e293b;
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+
+    table.activities-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    table.activities-table th, table.activities-table td {
+      border: 1px solid #334155;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    table.activities-table th {
+      background-color: #1e40af;
+      color: #f1f5f9;
+    }
+
+    table.activities-table tr:nth-child(even) {
+      background-color: #1e293b;
+    }
+
+    table.activities-table tr:hover {
+      background-color: #334155;
+    }
+
+    .contact a, .social a, .resume-button {
+      color: #60a5fa;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+
+    .resume-button {
+      margin-top: 1.5rem;
+      padding: 0.5rem 1rem;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .resume-button:hover {
+      background: #1e40af;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1e293b;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#activities">Activities</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="main-content">
+    <header>
+      <img src="WhatsApp Image 2025-04-24 at 10.35.54 PM.jpeg" alt="Utkarsha's Profile Picture">
+      <h1>Utkarsha Anil Sakore</h1>
+      <p class="bio">Electronics and Telecommunication Engineering student at MITAOE, Pune. Enthusiast of C programming, Python, and currently learning Prompt Engineering.</p>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am Utkarsha Anil Sakore, currently pursuing my B.Tech. in Electronics and Telecommunication Engineering from MITAOE, Pune. I'm passionate about coding, problem-solving, and using technology to make a positive impact. Currently, I’m working on projects like Sentiment Analysis and a Smart Dustbin using Arduino.</p>
+      <p>My hobbies include drawing, cycling, swimming, and traveling. I'm also enthusiastic about learning new technologies, including C programming, Python, and Prompt Engineering.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>C Programming</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Arduino</li>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Creativity</li>
+        <li>Problem Solving</li>
+        <li>Public Speaking</li>
+        <li>Leadership</li>
+        <li>Drawing</li>
+        <li>Cycling</li>
+        <li>Swimming</li>
+        <li>Traveling</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Sentiment Analysis</h3>
+        <p>A project focused on analyzing the sentiment of textual data using Python and machine learning algorithms.</p>
+      </div>
+      <div class="project">
+        <h3>Smart Dustbin</h3>
+        <p>An Arduino-based smart dustbin that automatically sorts and disposes of waste in an efficient manner.</p>
+      </div>
+      <div class="project">
+        <h3>Book Recommendation System</h3>
+        <p>A Python-based recommendation system that suggests books to users based on their preferences.</p>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <div class="achievement-box">
+        <p><strong>10th Grade:</strong> 90%</p>
+        <p><strong>12th Grade:</strong> 82.83%</p>
+        <p><strong>CET Score:</strong> 90 percentile</p>
+        <p><strong>Linux Certified</strong></p>
+        <p><strong>Cisco NetAcad Python Certified</strong></p>
+        <p><strong>NASSCOM Certified</strong></p>
+      </div>
+    </section>
+
+    <section id="activities">
+      <h2>Extra-Curricular Activities</h2>
+      <table class="activities-table">
+        <thead>
+          <tr>
+            <th>Activity</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Photography</td>
+            <td>Exploring visual storytelling through lenses and capturing moments with creativity.</td>
+          </tr>
+          <tr>
+            <td>Public Speaking</td>
+            <td>Confident stage presence, active in hosting college events and academic presentations.</td>
+          </tr>
+          <tr>
+            <td>Creative Writing</td>
+            <td>Authoring a romcom fiction story, writing poems, writing songs etc.</td>
+          </tr>
+          <tr>
+            <td>Singing</td>
+            <td>Learned classical Music and certified in 2 Exams.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="contact">Email: <a href="mailto:202401040372@mitaoe.ac.in">202401040372@mitaoe.ac.in</a></p>
+      <p class="social">LinkedIn: <a href="https://www.linkedin.com/in/utkarsha-sakore" target="_blank">@utkarsha-sakore</a></p>
+      <p class="social">GitHub: <a href="https://github.com/utkarsha-sakore" target="_blank">@utkarsha-sakore</a></p>
+      <a href="Utkarsha_Sakore_Resume.docx" class="resume-button" download>Download Resume</a>
+    </section>
+
+    <footer>
+      <p>Designed & Developed by Utkarsha Anil Sakore © 2025</p>
+    </footer>
+  </div>
+</body>
+</html>
